@@ -7,7 +7,7 @@ var animalTemplate = function(animalData) {
 	var i;
 
 	for (i=0; i<animalData.length; i++) {
-		markup += "<h1>" + animalData[i].parent + "</h1><h6>" + animalData[i].child + "</h6>";
+		markup += "<h2>" + animalData[i].parent + "</h2><h5>" + animalData[i].child + "</h5>";
 		// console.log(markup);
 	}
 
@@ -55,7 +55,7 @@ var bookTemplate = function(bookData) {
 	var i;
 
 	for (i=0; i<bookData.length; i++) {
-		markup += "<h5>" + bookData[i].book + "</h5><h6>" + bookData[i].author + "</h6><p>" + bookData[i].publisher + "</p>";
+		markup += "<h2>" + bookData[i].book + "</h2><h3>" + bookData[i].author + "</h3><h4>" + bookData[i].publisher + "</h4>";
 		// console.log(markup);
 	}
 
